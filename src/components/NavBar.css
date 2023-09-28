@@ -1,0 +1,35 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: "Work Sans";
+}
+nav{
+    display: flex;
+    padding: 0.75rem 6.25rem;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 0 4px gray;
+}
+
+.nav-center{
+    display: flex;
+    padding: 10px 21px 10px 20px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 39px;
+}
+a{
+    text-decoration: none;
+}
+.nav-center a{
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+}
+.nav-right a{
+    color:  #120B48;
+font-family: "Sora";
+font-size: 18px;
+font-weight: 600;
+}
