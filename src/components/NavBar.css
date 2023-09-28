@@ -26,10 +26,35 @@ a{
     color: #000;
     font-size: 16px;
     font-weight: 500;
+   
+    
+}
+.nav-center a::after{
+   
+    content: "";
+    background-color: #120B48;
+    display: block;
+    height:2px;
+    width:0%;
+     transition: 1s;
+}
+.nav-center a:hover::after{
+    width:100%;
+}
+.nav-center a:hover{
+    color: #120B48;
 }
 .nav-right a{
+    padding: 10px;
     color:  #120B48;
 font-family: "Sora";
 font-size: 18px;
 font-weight: 600;
 }
+.nav-right a:hover{
+    
+    background-color: #120B48;
+    color: white;
+    border-radius: 10px;
+}
+
