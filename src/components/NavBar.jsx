@@ -1,7 +1,8 @@
 import "./NavBar.css"
 function NavBar(){
     return(
-        <nav>
+        <header>
+            <nav>
             <div className="nav-left">
                 <img src="/images/Logo.png" alt="" />
             </div>
@@ -15,6 +16,8 @@ function NavBar(){
                 <a href="">Get Started</a>
             </div>
         </nav>
+        </header>
+        
     )
 }
 
