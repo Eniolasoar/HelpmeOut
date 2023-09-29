@@ -14,12 +14,14 @@ function Hero(){
                     <img src="public/images/home1.png" alt="" />
                     <div className="img-left-2">
                     <img src="public/images/home2.png" alt="" />
+                    <img src="public/images/bottomleft.svg" alt="" id="bottomleftimg"/>
                     </div>
                     
                 </div>
 
                 <div className="image-right">
                     <img src="public/images/woman-using-smartphone-technology 2.png" alt="" />
+                    <img src="public/images/topright.svg" alt="" id="toprightimg"/>
                 </div>
             </div>
         </div>
