@@ -1,0 +1,46 @@
+footer{
+    margin-top: 50px;
+    padding: 98px 130px;
+width: 100%;
+background:  #120B48;
+}
+.outer-container{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 243px;
+}
+.inner-container{
+    display: flex;
+    align-items: flex-start;
+    
+}
+.inner-container-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 150px;
+}
+.flex-col{
+    display: flex;
+flex-direction: column;
+gap: 26px;
+width: fit-content;
+}
+.flex-col h4{
+    color: #FFF;
+
+font-family: "Sora";
+font-size: 16px;
+font-weight: 600;
+}
+.flex-col p{
+    color: #FFF;
+font-family: "Work Sans";
+font-size: 16px;
+font-weight: 400;
+}
+.flex-col p:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
