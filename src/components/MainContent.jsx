@@ -7,8 +7,8 @@ function MainContent() {
         <p className="title-paragraph">Key Highlights of Our Extension</p>
         <div className="features">
           <div className="features-text">
-            <div className="inner-container" >
-              <img src="public/images/Icon1.png" alt="" />
+            <div className="inner-container">
+              <img src="/images/Icon1.png" alt="" />
               <div className="features-main">
                 <h3>Simple Screen Recording</h3>
                 <p>
@@ -19,7 +19,7 @@ function MainContent() {
             </div>
 
             <div className="inner-container">
-              <img src="public/images/Icon2.png" alt="" />
+              <img src="/images/Icon2.png" alt="" />
               <div className="features-main">
                 <h3>Easy-to-Share URL</h3>
                 <p>
@@ -30,7 +30,7 @@ function MainContent() {
             </div>
 
             <div className="inner-container">
-              <img src="public/images/Icon3.png" alt="" />
+              <img src="/images/Icon3.png" alt="" />
               <div className="features-main">
                 <h3>Revisit Recordings</h3>
                 <p>
@@ -41,7 +41,7 @@ function MainContent() {
             </div>
           </div>
           <div className="feature-image">
-            <img src="public/images/Video Repository.png" alt="" />
+            <img src="/images/Video Repository.png" alt="" />
           </div>
         </div>
       </section>
@@ -51,7 +51,9 @@ function MainContent() {
         <div className="working-container">
           <div className="working">
             <div className="text-area">
-              <div className="number"><span>1</span></div>
+              <div className="number">
+                <span>1</span>
+              </div>
               <h3>Record Screen</h3>
               <p>
                 Click the "Start Recording" button in our extension. choose
@@ -61,40 +63,46 @@ function MainContent() {
             </div>
 
             <div className="image">
-                <img src="public/images/record1.png" alt="" />
+              <img src="/images/record1.png" alt="" />
             </div>
           </div>
 
           <div className="working">
             <div className="text-area">
-              <div className="number"><span>2</span></div>
+              <div className="number">
+                <span>2</span>
+              </div>
               <h3>Share Your Recording</h3>
               <p>
-              We generate a shareable link for your video. Simply send it to your audience via email or copy the link to send via any platform.
+                We generate a shareable link for your video. Simply send it to
+                your audience via email or copy the link to send via any
+                platform.
               </p>
             </div>
 
             <div className="image">
-                <img src="public/images/record1.png" alt="" />
+              <img src="/images/record1.png" alt="" />
             </div>
           </div>
 
           <div className="working">
             <div className="text-area">
-              <div className="number"><span>3</span></div>
+              <div className="number">
+                <span>3</span>
+              </div>
               <h3>Learn Effortlessly</h3>
               <p>
-              Recipients can access your video effortlessly through the provided link, with our user-friendly interface suitable for everyone.
+                Recipients can access your video effortlessly through the
+                provided link, with our user-friendly interface suitable for
+                everyone.
               </p>
             </div>
 
             <div className="image">
-                <img src="public/images/record1.png" alt="" />
+              <img src="/images/record1.png" alt="" />
             </div>
           </div>
         </div>
-
-
       </section>
     </>
   );
