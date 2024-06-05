@@ -46,15 +46,28 @@ a{
 }
 .nav-right a{
     padding: 10px;
-    color:  #120B48;
+    background-color: #120B48;
+    color: white;
+    border-radius: 10px;
 font-family: "Sora";
 font-size: 18px;
 font-weight: 600;
 }
 .nav-right a:hover{
-    
-    background-color: #120B48;
-    color: white;
-    border-radius: 10px;
+    opacity: 0.7;
+   
 }
 
+@media screen and (max-width: 768px) {
+    nav{
+        padding: 5px;
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;
+    }
+
+    .nav-right {
+        margin: 20px 0;
+    }
+}

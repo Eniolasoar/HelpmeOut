@@ -2,12 +2,12 @@ import "./MainContent.css";
 function MainContent() {
   return (
     <>
-      <section className="features-container">
+      <section className="features-container" id="features">
         <h2 className="features-title">Features</h2>
         <p className="title-paragraph">Key Highlights of Our Extension</p>
         <div className="features">
           <div className="features-text">
-            <div className="inner-container">
+            <div className="inner-container" >
               <img src="public/images/Icon1.png" alt="" />
               <div className="features-main">
                 <h3>Simple Screen Recording</h3>
@@ -46,7 +46,7 @@ function MainContent() {
         </div>
       </section>
 
-      <section className="how-it-works">
+      <section className="how-it-works" id="how">
         <h2>How it works</h2>
         <div className="working-container">
           <div className="working">

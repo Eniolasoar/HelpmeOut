@@ -3,7 +3,8 @@ img{
 }
 .container{
     min-height: 100vh;
-    padding:0px 100px;
+    width: 90%;
+    margin: auto;
     display:flex;
     justify-content: center;
     align-items: center;
@@ -76,4 +77,50 @@ font-weight: 500;
     left: 10px;
     top: -40px;
     z-index: -1;
+}
+@media screen and (max-width: 768px) {
+    .container{
+        margin-top: 10px;
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;
+        padding: 10px;
+    }
+    .text-content h1{
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .image-container img{
+        width: 100%;
+    }
+    .text-content p{
+        margin-bottom: 30px;
+    }
+    .text-content button{
+        margin-bottom: 50px;
+    }
+
+
+}
+
+@media screen and (max-width: 900px) {
+/*   
+    .text-content{
+        width: 80%;
+    }*/
+    .image-container img{
+        width: 100%;
+    }
+    .container{
+        display:flex;
+        flex-direction:column-reverse;
+        justify-content:center;
+        align-items:center;
+        background-size: contain;
+        
+    }
+    .text-content h1{
+        margin-top: 20px;
+    }
 }
