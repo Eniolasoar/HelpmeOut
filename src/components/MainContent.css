@@ -65,7 +65,9 @@ font-size: 20px;
 font-weight: 400;
 line-height: 151.3%; 
 }
-
+.how-it-works{
+    margin-top: 90px;
+}
 .how-it-works h2{
     color: #141414;
 font-family: "Sora";

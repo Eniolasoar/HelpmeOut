@@ -11,17 +11,17 @@ function Hero(){
 
             <div className="image-container">
                 <div className="image-left">
-                    <img src="public/images/home1.png" alt="" />
+                    <img src="/images/home1.png" alt="" />
                     <div className="img-left-2">
-                    <img src="public/images/home2.png" alt="" />
-                    <img src="public/images/bottomleft.svg" alt="" id="bottomleftimg"/>
+                    <img src="/images/home2.png" alt="" />
+                    <img src="/images/bottomleft.svg" alt="" id="bottomleftimg"/>
                     </div>
                     
                 </div>
 
                 <div className="image-right">
-                    <img src="public/images/woman-using-smartphone-technology 2.png" alt="" />
-                    <img src="public/images/topright.svg" alt="" id="toprightimg"/>
+                    <img src="/images/woman-using-smartphone-technology 2.png" alt="" />
+                    <img src="/images/topright.svg" alt="" id="toprightimg"/>
                 </div>
             </div>
         </div>
